@@ -1,0 +1,62 @@
+#!/bin/sh
+
+#Make basic directory
+#dl = download | pix = pictures | vid = videos | doc = doccument | prog = code archives
+mkdir dl pix vid doc prog
+
+#Make vital directory
+ln -sf ~/.dotfiles/.local ~/.local
+ln -sf ~/.dotfiles/.xinitrc ~/.xinitrc
+ln -sf ~/.dotfiles/.config ~/.config
+
+#Install necessary application
+sudo pacman -S syncthing xdotool paru libxft libxinerama xwallpaper xcompmgr neofetch zsh python-pywal ranger mpv cmus sxiv ncspot firefox nvim emacs tmux curl ripgrep fd wget neomutt isync msmtp pass ca-certificates gettext bluez bluez-utils pulsemixer zathura-pdf-poppler neovim xorg-xrandr openssh
+paru -S zsh-syntax-highlighting python-pywalfox cava
+
+#Install fonts
+sudo pacman -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-fonts-awesome noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
+
+#Config resplution
+~/.local/bin/autores
+
+#Enable ssh server
+sudo systemctl enable sshd
+sudo systemctl start sshd
+
+#Install suckless
+cd ~/.local/src/dwm
+sudo make clean install
+cd ..
+cd ~/.local/src/dmenu
+sudo make clean install
+cd ..
+cd ~/.local/src/slstatus
+sudo make clean install
+cd ..
+cd ~/.local/src/st
+sudo make clean install
+cd
+
+#Config zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo ln -sf ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
+sudo ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+sudo ln -sf ~/.dotfiles/.zprofile ~/.zprofile
+zsh
+
+#Install Lazyvim 
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
+
+#Install Doom emacs
+ln -sf ~/.dotfiles/.emacs.d ~/.emacs.d
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+
+#Config neomutt
+cd dl
+git clone https://github.com/LukeSmithxyz/mutt-wizard
+cd mutt-wizard
+sudo make install
+cd
+

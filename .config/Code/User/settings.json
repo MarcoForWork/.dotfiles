@@ -1,0 +1,49 @@
+{
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "editor.mouseWheelZoom": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "workbench.editor.defaultBinaryEditor": "default",
+  "cmake.configureOnOpen": true,
+  "code-runner.runInTerminal": true,
+  "editor.semanticTokenColorCustomizations": {},
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.fontFamily": "'Fira Code'",
+  "editor.tokenColorCustomizations": {
+    "[Kanagawa]": {
+      "comments": {
+        "foreground": "#FF9E3B"
+      }
+    }
+  },
+  "background.fullscreen": {
+    "image": "c:UsershoangPictureswallpaperflare.com_wallpaper.jpg",
+    "images": [],
+    "opacity": 0.91,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  "background.windowBackgrounds": [
+    "c:/Users/hoang/Pictures/wallpaperflare.com_wallpaper.jpg"
+  ],
+  "background.backgroundSize": ["Cover", "Cover", "Cover", "Cover"],
+  "workbench.colorTheme": "Ghibli's Spirited Away",
+  "background.backgroundBlur": ["10", "0", "0", "0"],
+  "background.backgroundOpacity": [0.9, 0.9, 0.9, 0.9],
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "always",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "cmake.showOptionsMovedNotification": false
+}

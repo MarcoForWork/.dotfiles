@@ -1,0 +1,36 @@
+2024-02-02 21:16:40.028 [info] Extension host with pid 49876 started
+2024-02-02 21:16:40.144 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-02 21:16:40.154 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-02-02 21:16:40.746 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-02 21:16:40.926 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-02-02 21:16:40.979 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-02 21:16:41.026 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-02 21:16:41.210 [info] Eager extensions activated
+2024-02-02 21:16:41.320 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:41.330 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:41.350 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:41.415 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:41.474 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:41.507 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 21:16:42.099 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-02-02 21:16:42.121 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-02-02 21:17:02.055 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-02 21:17:02.181 [error] [ms-vscode.cpptools] provider FAILED
+2024-02-02 21:17:02.181 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:66327:27)
+	at Object.dispose (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:70079:35)
+	at /home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:69494:28
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Object.deactivate (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:97847:5)
+	at async Promise.all (index 12)
+	at async g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7823)
+2024-02-02 21:17:02.181 [error] [ms-vscode.cpptools] provider FAILED
+2024-02-02 21:17:02.181 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:66327:27)
+	at Object.dispose (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:70079:35)
+	at /home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:69494:28
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Object.deactivate (/home/kami/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:97847:5)
+	at async Promise.all (index 12)
+	at async g.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7823)
+2024-02-02 21:17:02.182 [info] Extension host with pid 49876 exiting with code 0

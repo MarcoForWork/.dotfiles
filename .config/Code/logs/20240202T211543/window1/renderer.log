@@ -1,0 +1,4 @@
+2024-02-02 21:15:45.235 [info] Started local extension host with pid 49586.
+2024-02-02 21:15:45.554 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-02-02 21:15:48.812 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2024-02-02 21:15:49.405 [info] [perf] Render performance baseline is 87ms

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kami/Downloads/wallhaven-l8d8my.png" added="2024-02-02T06:10:55.622720Z" modified="2024-02-02T06:10:56.223991Z" visited="2024-02-02T06:10:55.622723Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-02T06:10:56.223987Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/prog" added="2024-02-02T08:36:29.783521Z" modified="2024-02-02T08:36:29.783528Z" visited="2024-02-02T08:36:29.783522Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-02-02T08:36:29.783525Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/Downloads/Takako%20Mamiya%20%E9%96%93%E5%AE%AE%E8%B2%B4%E5%AD%90%20-%20Love%20Trip%20(1982).jpg" added="2024-02-02T09:21:41.403873Z" modified="2024-02-02T09:21:41.403891Z" visited="2024-02-02T09:21:41.403875Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-02T09:21:41.403886Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/dl" added="2024-02-02T09:22:36.560001Z" modified="2024-02-03T04:25:08.679344Z" visited="2024-02-02T09:22:36.560002Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-03T04:25:08.679340Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/pix/Takako%20Mamiya%20%E9%96%93%E5%AE%AE%E8%B2%B4%E5%AD%90%20-%20Love%20Trip%20(1982).jpg" added="2024-02-02T09:22:59.195264Z" modified="2024-02-05T18:28:04.166541Z" visited="2024-02-02T09:22:59.195270Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-05T18:28:04.166536Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/vid/JPEGMAFIA%20x%20Danny%20Brown%20LEAN%20BEEF%20PATTY.mp4" added="2024-02-02T12:57:35.089616Z" modified="2024-02-02T12:57:35.489992Z" visited="2024-02-02T12:57:35.089619Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-02T12:57:35.489989Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/doc/bok/Rung%20Na-uy%20-%20Haruki%20Murakami.pdf" added="2024-02-02T16:40:30.775109Z" modified="2024-02-02T16:40:31.155065Z" visited="2024-02-02T16:40:30.775113Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-02T16:40:31.155063Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/dl/EndeavourOS_Galileo-Neo-2024.01.25.iso" added="2024-02-03T06:25:04.974856Z" modified="2024-02-03T06:41:50.086635Z" visited="2024-02-03T06:25:04.974857Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-03T06:34:19.214026Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2024-02-03T06:41:50.086633Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/dl/1011-1984-thuviensach.vn.pdf" added="2024-02-03T08:28:10.546799Z" modified="2024-02-03T08:29:42.480661Z" visited="2024-02-03T08:28:10.546803Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-03T08:29:42.480638Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/pix/a.jpg" added="2024-02-04T15:36:42.309916Z" modified="2024-02-04T15:38:01.923044Z" visited="2024-02-04T15:36:42.309919Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-04T15:38:01.923040Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/Pictures/Screenshots/Screenshot_2024-02-05_00-10-50.png" added="2024-02-04T17:11:32.644572Z" modified="2024-02-04T17:11:32.644612Z" visited="2024-02-04T17:11:32.644578Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-04T17:11:32.644591Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/pix/IMG_3377.PNG" added="2024-02-05T18:27:30.372729Z" modified="2024-02-05T18:27:30.372739Z" visited="2024-02-05T18:27:30.372730Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-05T18:27:30.372734Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/pix/wall/wallhaven-l8d8my.png" added="2024-02-05T18:28:47.696905Z" modified="2024-02-05T18:28:47.696928Z" visited="2024-02-05T18:28:47.696906Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-05T18:28:47.696924Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kami/pix/1.jpg" added="2024-02-05T18:29:43.735617Z" modified="2024-02-05T18:29:50.120651Z" visited="2024-02-05T18:29:43.735623Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2024-02-05T18:29:50.120647Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

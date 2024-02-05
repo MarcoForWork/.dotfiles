@@ -1,0 +1,10 @@
+2024-02-02 21:13:38.172 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-02 21:13:38.172 [info] Auto Sync is enabled.
+2024-02-02 21:13:38.172 [info] Auto Sync: Suspended until auth token is available.
+2024-02-02 21:13:39.621 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/extensions
+2024-02-02 21:13:39.721 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/globalState
+2024-02-02 21:13:39.728 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/keybindings
+2024-02-02 21:13:39.729 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/profiles
+2024-02-02 21:13:39.729 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/settings
+2024-02-02 21:13:39.729 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/snippets
+2024-02-02 21:13:39.729 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/tasks

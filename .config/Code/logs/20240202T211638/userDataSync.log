@@ -1,0 +1,27 @@
+2024-02-02 21:16:39.764 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-02-02 21:16:39.764 [info] Auto Sync is enabled.
+2024-02-02 21:16:39.764 [info] Auto Sync: Suspended until auth token is available.
+2024-02-02 21:16:40.565 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/extensions
+2024-02-02 21:16:41.368 [info] Auto Sync: Triggered by Interval
+2024-02-02 21:16:41.369 [info] Sync started.
+2024-02-02 21:16:41.382 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/globalState
+2024-02-02 21:16:41.785 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/keybindings
+2024-02-02 21:16:41.961 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/profiles
+2024-02-02 21:16:42.055 [info] Settings: No changes found during synchronizing settings.
+2024-02-02 21:16:42.161 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/settings
+2024-02-02 21:16:42.166 [info] Keybindings: Last sync resource does not exist locally.
+2024-02-02 21:16:42.644 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/snippets
+2024-02-02 21:16:42.856 [info] Deleting non existing profile from backup /home/kami/.config/Code/User/sync/tasks
+2024-02-02 21:16:43.163 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-02-02 21:16:43.169 [info] Snippets: Last sync resource does not exist locally.
+2024-02-02 21:16:43.590 [info] Snippets: No changes found during synchronizing snippets.
+2024-02-02 21:16:43.618 [info] Tasks: Last sync resource does not exist locally.
+2024-02-02 21:16:43.762 [info] Tasks: No changes found during synchronizing tasks.
+2024-02-02 21:16:43.765 [info] GlobalState: Last sync resource does not exist locally.
+2024-02-02 21:16:44.817 [info] GlobalState: Updated remote ui state. Updated: workbench.statusbar.hidden.
+2024-02-02 21:16:44.979 [info] GlobalState: Updated last synchronized ui state
+2024-02-02 21:16:44.990 [info] Extensions: Last sync resource does not exist locally.
+2024-02-02 21:16:45.336 [info] Extensions: No changes found during synchronizing extensions.
+2024-02-02 21:16:45.339 [info] Profiles: Last sync resource does not exist locally.
+2024-02-02 21:16:45.474 [info] Profiles: No changes found during synchronizing profiles.
+2024-02-02 21:16:45.478 [info] Sync done. Took 4109ms
