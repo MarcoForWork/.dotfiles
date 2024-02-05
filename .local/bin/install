@@ -10,15 +10,10 @@ ln -sf ~/.dotfiles/.xinitrc ~/.xinitrc
 ln -sf ~/.dotfiles/.config ~/.config
 
 #Install necessary application
-sudo pacman -S syncthing xdotool libxft libxinerama xwallpaper xcompmgr neofetch zsh python-pywal ranger mpv cmus sxiv ncspot firefox nvim emacs tmux curl ripgrep fd wget neomutt isync msmtp pass ca-certificates gettext bluez bluez-utils pulsemixer zathura-pdf-poppler neovim xorg-xrandr openssh
-sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 paru -S zsh-syntax-highlighting python-pywalfox cava
-
-#Install fonts
-sudo pacman -S ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-fonts-awesome noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra
 
 #Config resplution
 ~/.local/bin/autores
