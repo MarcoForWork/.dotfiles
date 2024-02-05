@@ -36,13 +36,6 @@ cd ~/.local/src/st
 sudo make clean install
 cd
 
-#Config zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo ln -sf ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
-sudo ln -sf ~/.dotfiles/.zshrc ~/.zshrc
-sudo ln -sf ~/.dotfiles/.zprofile ~/.zprofile
-zsh
-
 #Install Lazyvim 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
@@ -57,4 +50,12 @@ git clone https://github.com/LukeSmithxyz/mutt-wizard
 cd mutt-wizard
 sudo make install
 cd
+
+#Config zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo ln -sf ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
+sudo ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+sudo ln -sf ~/.dotfiles/.zprofile ~/.zprofile
+zsh
+
 
