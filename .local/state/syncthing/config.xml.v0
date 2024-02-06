@@ -1,7 +1,7 @@
 <configuration version="37">
     <folder id="default" label="Default Folder" path="/home/kami/Sync" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
-        <device id="ZVRYL2T-2Z34BQU-ZCIRYPP-JRBYPEU-NVONVGM-YGCZDWD-NBHNIKH-RMD5SQG" introducedBy="">
+        <device id="YH4E6CT-MQJWH3I-QERXUTI-HH5LLBT-LFAPZ4N-QFBX77R-7PV4PI3-ERXC7AS" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -40,7 +40,7 @@
             <maxTotalSize>4096</maxTotalSize>
         </xattrFilter>
     </folder>
-    <device id="ZVRYL2T-2Z34BQU-ZCIRYPP-JRBYPEU-NVONVGM-YGCZDWD-NBHNIKH-RMD5SQG" name="Amaterasu" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="YH4E6CT-MQJWH3I-QERXUTI-HH5LLBT-LFAPZ4N-QFBX77R-7PV4PI3-ERXC7AS" name="Tsukuyomi" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
@@ -52,13 +52,15 @@
         <numConnections>0</numConnections>
     </device>
     <gui enabled="true" tls="false" debugging="false" sendBasicAuthPrompt="false">
-        <address>127.0.0.1:8384</address>
-        <apikey>TkQLCJ6nqkfna6H2UMSPsRd6U6CLv57X</apikey>
+        <address>127.0.0.1:42219</address>
+        <apikey>5xj6iLyHczbCotHobibyZaD7ex3CWDXK</apikey>
         <theme>default</theme>
     </gui>
     <ldap></ldap>
     <options>
-        <listenAddress>default</listenAddress>
+        <listenAddress>tcp://0.0.0.0:37519</listenAddress>
+        <listenAddress>dynamic+https://relays.syncthing.net/endpoint</listenAddress>
+        <listenAddress>quic://0.0.0.0:37519</listenAddress>
         <globalAnnounceServer>default</globalAnnounceServer>
         <globalAnnounceEnabled>true</globalAnnounceEnabled>
         <localAnnounceEnabled>true</localAnnounceEnabled>
@@ -116,7 +118,7 @@
     <defaults>
         <folder id="" label="" path="~" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
             <filesystemType>basic</filesystemType>
-            <device id="ZVRYL2T-2Z34BQU-ZCIRYPP-JRBYPEU-NVONVGM-YGCZDWD-NBHNIKH-RMD5SQG" introducedBy="">
+            <device id="YH4E6CT-MQJWH3I-QERXUTI-HH5LLBT-LFAPZ4N-QFBX77R-7PV4PI3-ERXC7AS" introducedBy="">
                 <encryptionPassword></encryptionPassword>
             </device>
             <minDiskFree unit="%">1</minDiskFree>
