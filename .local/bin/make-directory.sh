@@ -6,7 +6,11 @@ read userInput
 
 if [ "$userInput" = "yes" ]; then
     echo -e "Making basic dir...\n"
-    mkdir dl pix vid doc prog
+    mkdir ~/dl 
+    mkdir ~/pix 
+    mkdir ~/vid 
+    mkdir ~/doc 
+    mkdir ~/prog
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
@@ -21,9 +25,11 @@ read userInput
 
 if [ "$userInput" = "yes" ]; then
     echo -e "Making personal dir...\n"
-    ln -sf ~/.dotfiles/.local ~/.local
-    ln -sf ~/.dotfiles/.config ~/.config
-    ln -sf ~/.dotfiles/.xinitrc ~/.xinitrcelse
+    rm -rf ~/.local
+    rm -rf ~/.config
+    sudo ln -sf ~/.dotfiles/.local/ ~/.local
+    sudo ln -sf ~/.dotfiles/.config/ ~/.config
+    sudo ln -sf ~/.dotfiles/.xinitrc/ ~/.xinitrc
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
