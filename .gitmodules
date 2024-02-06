@@ -1,0 +1,12 @@
+[submodule ".local/src/dmenu"]
+	path = .local/src/dmenu
+	url = git@github.com:MarcoForWork/dmenu.git
+[submodule ".local/src/dwm"]
+	path = .local/src/dwm
+	url = git@github.com:MarcoForWork/dwm.git
+[submodule ".local/src/st"]
+	path = .local/src/st
+	url = git@github.com:MarcoForWork/st.git
+[submodule ".local/src/slstatus"]
+	path = .local/src/slstatus
+	url = git@github.com:MarcoForWork/slstatus.git
