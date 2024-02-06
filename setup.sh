@@ -12,6 +12,7 @@ cd ~/.dotfiles/.local/bin || exit
 ./make-directory.sh
 ./install-lazyvim.sh
 ./install-doom-emacs.sh
+./install-neomutt.sh
 ./install-oh-my-zsh.sh
 
 #Back to HOME
