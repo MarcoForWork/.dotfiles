@@ -1,9 +1,0 @@
-file:///home/kami/prog/hello.cpp {"mtime":1706863387747,"ctime":1706863031361,"size":188,"etag":"3brfam3n562","orphaned":false,"typeId":""}
-#include <iostream>
-int main()
-{
-    std::cout << "Hello world!\0";
-    std::cout << "This is the first time i try to use terminal to\n";
-    std::cout << "Compile a file";
-    return 0;
-}

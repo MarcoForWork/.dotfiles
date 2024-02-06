@@ -1,7 +1,0 @@
-2024-02-02 21:13:36.063 [info] Started local extension host with pid 47661.
-2024-02-02 21:13:36.354 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2024-02-02 21:13:39.536 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
-2024-02-02 21:13:41.994 [info] [perf] Render performance baseline is 48ms
-2024-02-02 21:13:44.865 [info] Extension host (LocalProcess pid: 47661) is unresponsive.
-2024-02-02 21:13:45.236 [info] Extension host (LocalProcess pid: 47661) is responsive.
-2024-02-02 21:13:45.236 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

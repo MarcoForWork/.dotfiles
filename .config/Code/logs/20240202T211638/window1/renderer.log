@@ -1,5 +1,0 @@
-2024-02-02 21:16:38.868 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/kami/prog/hell.cpp","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
-2024-02-02 21:16:39.402 [info] Started local extension host with pid 49876.
-2024-02-02 21:16:39.484 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
-2024-02-02 21:16:42.247 [info] [perf] Render performance baseline is 53ms
-2024-02-02 21:16:43.315 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.

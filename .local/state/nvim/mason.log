@@ -28,3 +28,7 @@
 [ERROR Mon 05 Feb 2024 05:34:04 AM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=stylua) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
 [INFO  Mon 05 Feb 2024 05:36:50 AM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
 [ERROR Mon 05 Feb 2024 05:36:52 AM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=stylua) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
+[INFO  Tue 06 Feb 2024 01:14:53 PM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  Tue 06 Feb 2024 01:14:53 PM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
+[INFO  Tue 06 Feb 2024 01:15:00 PM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
+[ERROR Tue 06 Feb 2024 01:15:00 PM +07] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=stylua) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
