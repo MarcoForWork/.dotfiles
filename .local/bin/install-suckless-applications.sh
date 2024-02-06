@@ -8,6 +8,7 @@ if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstall dwm..."
     cd /home/kami/.local/src/dwm
+    pwd
     sudo make clean install
     cd
     echo -e "\nDone\n"
@@ -23,6 +24,7 @@ if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling dmenu..."
     cd /home/kami/.local/src/dmenu
+    pwd
     sudo make clean install
     cd
     echo "\nDone\n"
@@ -38,6 +40,7 @@ if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling slstatus..."
     cd /home/kami/.local/src/slstatus
+    pwd
     sudo make clean install
     cd
     echo "\nDone\n"
@@ -53,6 +56,7 @@ if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling st..."
     cd /home/kami/.local/src/st
+    pwd
     sudo make clean install
     cd
     echo -e "\nDone\n"
