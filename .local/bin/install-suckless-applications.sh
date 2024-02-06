@@ -7,7 +7,7 @@ read userInput
 if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstall dwm..."
-    cd ~/.local/src/dwm
+    cd /home/kami/.local/src/dwm
     sudo make clean install
     cd
     echo -e "\nDone\n"
@@ -22,7 +22,7 @@ read userInput
 if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling dmenu..."
-    cd ~/.local/src/dmenu
+    cd /home/kami/.local/src/dmenu
     sudo make clean install
     cd
     echo "\nDone\n"
@@ -37,7 +37,7 @@ read userInput
 if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling slstatus..."
-    cd ~/.local/src/slstatus
+    cd /home/kami/.local/src/slstatus
     sudo make clean install
     cd
     echo "\nDone\n"
@@ -52,7 +52,7 @@ read userInput
 if [ "$userInput" = "yes" ]; then
     # Replace the following line with the action you want to perform
     echo -e "\nInstalling st..."
-    cd ~/.local/src/st
+    cd /home/kami/.local/src/st
     sudo make clean install
     cd
     echo -e "\nDone\n"

@@ -1,6 +1,7 @@
 #!/bin/sh
 
 #Make basic directory
+cd $HOME 
 echo "Do you want to  make basic directory? (yes/no)"
 read userInput
 
