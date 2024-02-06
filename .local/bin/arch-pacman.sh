@@ -59,6 +59,9 @@ pacman_apps=(
 	'noto-fonts-cjk'
 	'noto-fonts-emoji'
 	'noto-fonts-extra'
+	'xorg-twm'
+	'xorg-xclock'
+	'xterm'
 )
 
 # Colors
