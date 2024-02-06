@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #INSTALL DWM
-echo -n "Do you want download dwm? (yes/no)"
+echo -n "Do you want download dwm? (yes/no) "
 read userInput
 
 if [ "$userInput" = "yes" ]; then
@@ -16,7 +16,7 @@ else
 fi
 
 #INSTALL DMENU
-echo -n "Do you want to install dmenu? (yes/no)"
+echo -n "Do you want to install dmenu? (yes/no) "
 read userInput
 
 if [ "$userInput" = "yes" ]; then
@@ -31,7 +31,7 @@ else
 fi
 
 #INSTALL SLSTATUS
-echo -n "Do you want to install slstatus? (yes/no)"
+echo -n "Do you want to install slstatus? (yes/no) "
 read userInput
 
 if [ "$userInput" = "yes" ]; then
@@ -46,7 +46,7 @@ else
 fi
 
 #INSTALL ST
-echo -n "Do you want to install st? (yes/no)"
+echo -n "Do you want to install st? (yes/no) "
 read userInput
 
 if [ "$userInput" = "yes" ]; then
