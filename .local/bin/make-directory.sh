@@ -28,9 +28,10 @@ if [ "$userInput" = "yes" ]; then
     echo -e "Making personal dir...\n"
     rm -rf ~/.local
     rm -rf ~/.config
-    sudo ln -sf ~/.dotfiles/.local/ ~/.local
-    sudo ln -sf ~/.dotfiles/.config/ ~/.config
-    sudo ln -sf ~/.dotfiles/.xinitrc/ ~/.xinitrc
+    sudo ln -sf ~/.dotfiles/.local ~/.local
+    sudo ln -sf ~/.dotfiles/.config ~/.config
+    sudo ln -sf ~/.dotfiles/.xinitrc ~/.xinitrc
+    sudo ln -sf ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh  
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
