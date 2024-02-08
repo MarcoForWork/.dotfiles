@@ -1,3 +1,4 @@
 .local/state/*
 .local/share/*
 .config/emacs
+.config/nvim
