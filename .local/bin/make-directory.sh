@@ -12,6 +12,9 @@ if [ "$userInput" = "yes" ]; then
     mkdir ~/vid 
     mkdir ~/doc 
     mkdir ~/prog
+    mkdir ~/temp
+    mkdir ~/pub
+    mkdir ~/dst
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
@@ -31,7 +34,6 @@ if [ "$userInput" = "yes" ]; then
     sudo ln -sf ~/.dotfiles/.local ~/.local
     sudo ln -sf ~/.dotfiles/.config ~/.config
     sudo ln -sf ~/.dotfiles/.xinitrc ~/.xinitrc
-    sudo ln -sf ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh  
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
