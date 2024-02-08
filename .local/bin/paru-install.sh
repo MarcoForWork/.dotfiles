@@ -9,7 +9,8 @@ if [ "$userInput" = "yes" ]; then
     git clone https://aur.archlinux.org/paru.git
     cd paru
     makepkg -si
-    paru -S zsh-syntax-highlighting python-pywalfox cava
+    paru -S zsh-syntax-highlighting python-pywalfox cava bluetuith
+    mv ~/.local/bin/paru ~/paru
     echo -e "Done\n"
 else
     echo -e "No action will be performed.\n"
