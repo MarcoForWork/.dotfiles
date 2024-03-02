@@ -48,6 +48,7 @@ xrandr --dpi 96
 dunst &
 udiskie &
 
+~/.local/bin/ncspot-notifier.sh &
 ~/.local/bin/wal &
 syncthing &
 xcompmgr &

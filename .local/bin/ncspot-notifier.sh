@@ -1,14 +1,18 @@
 #!/usr/bin/env sh
 
-previous_song=""
+# Store the current song
+current_song=""
 
 while true; do
-    current_song=$(ncspot --status-json | jq -r '.track' 2>/dev/null)
+    # Get the current song's title and artist
+    song_info=$(playerctl metadata --format "{{ title }} by {{ artist }}")
 
-    if [ "$current_song" != "$previous_song" ]; then
-        notify-send "Now Playing" "$current_song"
-        previous_song="$current_song"
+    # If the song has changed, display a notification
+    if [[ "$song_info" != "$current_song" ]]; then
+        notify-send "Now playing" "$song_info"
+        current_song=$song_info
     fi
 
-    sleep 5  # Adjust the sleep duration based on your preferences
+    # Wait for a short period before checking again
+    sleep 1
 done
